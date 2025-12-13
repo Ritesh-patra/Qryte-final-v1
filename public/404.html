@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>QRYTE - Hotel Management</title>
+  </head>
+  <body>
+    <script>
+      // Redirect any 404 back to index.html and let React Router handle it
+      var path = window.location.pathname.replace('/QRYTE_Final', '');
+      window.location.href = '/QRYTE_Final/?redirect=' + encodeURIComponent(path);
+    </script>
+  </body>
+</html>

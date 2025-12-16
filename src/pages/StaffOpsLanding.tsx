@@ -125,6 +125,8 @@ export const StaffOpsLanding: React.FC = () => {
   });
 
   return (
+
+    <>
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: '#fafafa' }}>
       {/* Header */}
       <div
@@ -979,5 +981,6 @@ export const StaffOpsLanding: React.FC = () => {
         )}
       </div>
     </div>
+    </>
   );
 };

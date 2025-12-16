@@ -7,7 +7,7 @@ import { OrderProvider } from './context/OrderContext'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/QRYTE_Final/">
+    <BrowserRouter basename="/">
       <OrderProvider>
         <App />
       </OrderProvider>

@@ -5,13 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QRYTE - Hotel Management System</title>
-    <script>
-      // Handle redirect from 404 page
-      if (window.location.search.includes('redirect=')) {
-        var redirect = decodeURIComponent(new URLSearchParams(window.location.search).get('redirect'));
-        window.history.replaceState({}, document.title, '/QRYTE_Final' + redirect);
-      }
-    </script>
   </head>
   <body>
     <div id="root"></div>
